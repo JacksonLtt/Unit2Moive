@@ -1,0 +1,6 @@
+framework module Pods_Unit1Moive {
+  umbrella header "Pods-Unit1Moive-umbrella.h"
+
+  export *
+  module * { export * }
+}
