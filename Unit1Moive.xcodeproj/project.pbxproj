@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2DD8BA6C19C34AC4613228FC /* Pods_Unit1Moive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4033635531F90BB898BBC96F /* Pods_Unit1Moive.framework */; };
+		361C6129220119E100BA5942 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C6128220119E100BA5942 /* MovieDetailsViewController.swift */; };
+		361C612B220124EC00BA5942 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C612A220124EC00BA5942 /* MovieGridViewController.swift */; };
+		361C612D2201292B00BA5942 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361C612C2201292B00BA5942 /* MovieGridCell.swift */; };
 		3620483921F440E700D4424D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3620483821F440E700D4424D /* AppDelegate.swift */; };
 		3620483E21F440E700D4424D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3620483C21F440E700D4424D /* Main.storyboard */; };
 		3620484021F440E800D4424D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3620483F21F440E800D4424D /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		361C6128220119E100BA5942 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		361C612A220124EC00BA5942 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		361C612C2201292B00BA5942 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		3620483521F440E700D4424D /* Unit1Moive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unit1Moive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3620483821F440E700D4424D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3620483D21F440E700D4424D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,11 +71,14 @@
 			children = (
 				3620483821F440E700D4424D /* AppDelegate.swift */,
 				3620483C21F440E700D4424D /* Main.storyboard */,
-				36D1CB0621F5B8EA00E50646 /* MovieCell.swift */,
 				3620483F21F440E800D4424D /* Assets.xcassets */,
 				3620484121F440E800D4424D /* LaunchScreen.storyboard */,
 				3620484421F440E800D4424D /* Info.plist */,
+				36D1CB0621F5B8EA00E50646 /* MovieCell.swift */,
 				36D1CB0421F5B31700E50646 /* MoviesViewController.swift */,
+				361C6128220119E100BA5942 /* MovieDetailsViewController.swift */,
+				361C612A220124EC00BA5942 /* MovieGridViewController.swift */,
+				361C612C2201292B00BA5942 /* MovieGridCell.swift */,
 			);
 			path = Unit1Moive;
 			sourceTree = "<group>";
@@ -213,8 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361C612B220124EC00BA5942 /* MovieGridViewController.swift in Sources */,
+				361C6129220119E100BA5942 /* MovieDetailsViewController.swift in Sources */,
 				3620483921F440E700D4424D /* AppDelegate.swift in Sources */,
 				36D1CB0521F5B31700E50646 /* MoviesViewController.swift in Sources */,
+				361C612D2201292B00BA5942 /* MovieGridCell.swift in Sources */,
 				36D1CB0721F5B8EA00E50646 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,7 +381,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.taitingl.Unit1Moive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taitingl.Unit2Moive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -388,7 +400,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.taitingl.Unit1Moive;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taitingl.Unit2Moive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
